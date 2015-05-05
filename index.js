@@ -1,5 +1,4 @@
 var connect = require('mongodb').MongoClient.connect
-  //, app = require('express')()
   , session = require('express-session')
   , MongoStore = require('connect-mongo')(session)
 
